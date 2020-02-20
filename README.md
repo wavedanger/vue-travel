@@ -20,9 +20,31 @@
 * [stylus](https://github.com/stylus/stylus)
 #### 安装教程
 
-1.  clone或download本代码，打开命令行，cd到项目文件夹(tourism)
-2.  执行npm run build
-3.  将生成的dist文件夹里的文件复制到服务器上即可
+1. 环境
+* node.js(npm)官网下载
+* cnpm更快
+```
+npm install -g cnpm --registry=http://registry.npm.taobao.org
+```
+* webpack
+```
+npm install webpack -g
+```
+* vue-cli
+```
+npm install vue-cli -g
+```
+2. 运行
+* clone或下载项目到本地
+* cd到项目文件夹
+* npm install安装依赖
+* 执行npm run dev
+3. 打包
+* clone或下载项目到本地
+* cd到项目文件夹
+* npm install安装依赖
+* 执行npm run build
+* 将生成的dist文件夹里的文件复制到服务器上即可
 
 #### 开发记录
 
