@@ -1,0 +1,41 @@
+// position方式
+  .icons >>> .swiper-container
+    height: 0
+    padding-bottom: 50%
+    width: 100%
+    overflow: hidden
+    // background: #eee
+    .icon
+      position: relative
+      width: 25%
+      float: left
+      height: 0
+      padding-bottom: 25%
+      overflow: hidden
+
+      .icon-img
+        position: absolute
+        top: 0
+        right: 0
+        left: 0
+        bottom: 0.44rem
+        box-sizing: border-box
+        padding: 0.1rem
+
+        .icon-img-content
+          display: block
+          margin: 0 auto
+          height: 100%
+
+      .icon-desc
+        padding: 0rem 0.1rem
+        box-sizing: border-box
+        position: absolute
+        left: 0
+        right: 0
+        bottom: 0
+        line-height: 0.44rem
+        height: 0.44rem
+        color: $darkTextColor
+        text-align: center
+        ellipsis()

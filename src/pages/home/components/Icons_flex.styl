@@ -1,0 +1,33 @@
+// flex方式
+.icons >>> .swiper-container
+    height: 0
+    padding-bottom: 50%
+    width: 100%
+    overflow: hidden
+    // background: #eee
+.icons /deep/ .swiper-slide
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: flex-start
+  .icon
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 25%
+    height: 0
+    overflow: hidden
+    padding-bottom: 25%
+
+    .icon-img
+      width: 100%
+      text-align: center
+
+      .icon-img-content
+        width: 70%
+    .icon-desc
+      width:100%
+      padding-bottom: 20%
+      text-align:center;
+      line-height: 0.5rem;
+      ellipsis()
