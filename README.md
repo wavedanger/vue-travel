@@ -1,4 +1,4 @@
-# vue- tourism
+# vue-travel
 
 #### 介绍
 
